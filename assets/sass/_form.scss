@@ -1,0 +1,38 @@
+.contact {
+	color: black;
+	margin-right: 45px;
+	margin-bottom: 45px;
+	font-size: 24px;
+	margin: 20px;
+	font-family: $lato;
+}
+
+.name {
+	margin-bottom: 10px;
+}
+
+.email {
+	margin-bottom: 10px;
+}
+
+textarea {
+	height: 200px;
+	width: 100%;
+	resize: vertical;
+}
+
+.button {
+	margin: 10px 0 30px 0;
+	font-size: 20px;
+	font-family: $lato;
+	color: black;
+	text-transform: uppercase;
+	background-color: white;
+	border: solid 1px black;
+	&:hover {
+	color: white;
+	background-color: #688898;
+	transition: color .4s linear;
+	transition: background-color .4s linear;
+	}
+}

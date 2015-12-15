@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: $link-color;
+	text-decoration: $link-style;
+}
+
+.content {
+	margin: 40px;
+}
+
+//fonts 
+
+.playfair {
+	font-family: $playfair;
+}
+
+.lato {
+	font-family: $lato;
+	font-size: 19px;
+}
+
+.dawn {
+	font-family: $dawn;
+	font-size: 20px;
+}
+
